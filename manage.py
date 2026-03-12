@@ -38,7 +38,7 @@ def main():
             "forget to activate a virtual environment?"
         ) from exc
 
-    # Show minimal startup info
+    # Show minimal startup info for server commands
     try:
         print_startup_info()
     except:
