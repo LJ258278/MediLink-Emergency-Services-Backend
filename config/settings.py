@@ -345,9 +345,9 @@ CELERY_WORKER_PREFETCH_MULTIPLIER = 1         # prevents one worker hoarding lon
 CELERY_TASK_ACKS_LATE             = True      # re-queue task if worker crashes mid-run
 CELERY_RESULT_EXPIRES             = 60 * 60   # clean up results after 1 hour
 
-# -------------------------------------------------------------------------------
+
 # LOGGING
-# -------------------------------------------------------------------------------
+
 
 (BASE_DIR / "logs").mkdir(exist_ok=True)
 

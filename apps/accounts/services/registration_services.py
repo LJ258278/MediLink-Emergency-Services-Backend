@@ -22,6 +22,7 @@ class RegistrationService:
         """
         Create a CLIENT account (active immediately — email verification disabled).
         """
+        
         from apps.accounts.models.profile import ClientProfile
 
         user = User.objects.create_client(

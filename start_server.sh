@@ -159,9 +159,9 @@ start_server() {
 
 main() {
     print_banner
-    setup_database
-    create_admin_user
-    collect_static_files
+    # setup_database
+    # create_admin_user
+    # collect_static_files
     start_server
 }
 

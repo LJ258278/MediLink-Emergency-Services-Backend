@@ -41,7 +41,7 @@ class Hospital(models.Model):
         on_delete=models.SET_NULL,
         null=True, blank=True,
         related_name="hospital",
-        limit_choices_to={"role": "hospital_admin"},
+        limit_choices_to={"role": "provider_admin"},
     )
 
     # Identity
